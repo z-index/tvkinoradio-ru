@@ -6343,10 +6343,11 @@ a:hover {
   float: left;
   background: #fff;
   border: 1px solid #d8dee1;
+  overflow: hidden;
 }
 .comments__photo img {
   display: block;
-  max-width: 100%;
+  max-width: 100% !important;
   margin: 0 !important;
 }
 .comments__text {
@@ -8126,14 +8127,27 @@ a:hover {
 .popup__desc-photo {
   float: left;
   margin: 6px 21px 0 0;
+  -webkit-border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 5px;
+  -moz-background-clip: padding;
   border-radius: 5px;
+  background-clip: padding-box;
   border: 1px solid #d8dee1;
+  width: 60px;
+  overflow: hidden;
 }
 .popup__desc-photo img {
   display: block;
   max-width: 100%;
   height: auto;
   vertical-align: top;
+  -webkit-border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 5px;
+  -moz-background-clip: padding;
+  border-radius: 5px;
+  background-clip: padding-box;
 }
 .popup__desc-txt {
   overflow: hidden;
