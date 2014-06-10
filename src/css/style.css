@@ -8743,6 +8743,9 @@ a:hover {
   -moz-background-clip: padding;
   border-radius: 5px;
   background-clip: padding-box;
+  width: 340px;
+  height: 255px;
+  overflow: hidden;
 }
 .connected-carousels .carousel-stage img {
   display: block;
@@ -8753,13 +8756,36 @@ a:hover {
   -moz-background-clip: padding;
   border-radius: 5px;
   background-clip: padding-box;
+  max-width: 340px;
+  height: auto;
 }
 .connected-carousels .navigation {
   margin: 0;
   width: 220px;
 }
+.connected-carousels .navigation li a {
+  display: block;
+  width: 60px;
+  height: 46px;
+  overflow: hidden;
+  -webkit-border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 5px;
+  -moz-background-clip: padding;
+  border-radius: 5px;
+  background-clip: padding-box;
+}
 .connected-carousels .carousel-navigation li img {
+  display: block;
   border: 0;
+  max-width: 60px;
+  height: auto;
+  -webkit-border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 5px;
+  -moz-background-clip: padding;
+  border-radius: 5px;
+  background-clip: padding-box;
 }
 .connected-carousels .carousel-navigation li.active img {
   border-color: #fff;

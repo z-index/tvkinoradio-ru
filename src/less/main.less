@@ -2798,13 +2798,14 @@ padding:0 0 20px;
         float: left;
 	    background:#fff;
 	    border:1px solid #d8dee1;
+	    overflow:hidden;
 
 
         img {
             display: block;
-            max-width: 100%;
+            max-width: 100% !important;
 	        margin:0 !important;
-//            .border-radius(5px);
+//          .border-radius(5px);
         }
     }
     &__text {
@@ -4596,14 +4597,18 @@ padding:0 0 20px;
 	&__desc-photo {
 		float:left;
 		margin:6px 21px 0 0;
-        border-radius: 5px;
+        .border-radius(5px);
         border: 1px solid #d8dee1;
+		width:60px;
+		overflow:hidden;
+
 
 		img {
 			display:block;
 			max-width:100%;
 			height:auto;
 			vertical-align:top;
+			.border-radius(5px);
 		}
 	}
 	&__desc-txt {
@@ -5173,18 +5178,34 @@ padding:0 0 20px;
 	display:block;
 	vertical-align:top;
 	.border-radius(5px);
+	width:340px;
+	height:255px;
+	overflow:hidden;
 }
 .connected-carousels .carousel-stage img {
 	display:block;
 	vertical-align:top;
 	.border-radius(5px);
+	max-width:340px;
+	height:auto;
 }
 .connected-carousels .navigation {
 	margin:0;
 	width:220px;
 }
+.connected-carousels .navigation li a {
+	display:block;
+	width:60px;
+	height:46px;
+	overflow:hidden;
+	.border-radius(5px);
+}
 .connected-carousels .carousel-navigation li img {
+	display:block;
 	border:0;
+	max-width:60px;
+	height:auto;
+	.border-radius(5px);
 }
 .connected-carousels .carousel-navigation li.active img {
 	border-color:#fff;
