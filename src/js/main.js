@@ -473,7 +473,10 @@ var MainJsClass = function () {
 						'text-align':'center'
 					})
 				}
-			})
+			});
+			var t=0;
+			t = setTimeout(300);
+//			scope.initFixedPopup();
 		}
 	};
 
@@ -494,6 +497,7 @@ var MainJsClass = function () {
 					'text-align':'center'
 				})
 			}
+			scope.initFixedPopup();
 		}
 	};
 

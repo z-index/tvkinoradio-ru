@@ -159,453 +159,455 @@
     <div class="main line">
         <div class="case">
 			<div class="cnt">
-				<h2 class="cnt__sub-ttl">Создание резюме</h2>
-                <dl class="accordion">
-                    <dt class="accordion__caption"><span class="accordion__caption-in"><span class="ico ico_accordion-a"></span>Личные данные</span></dt>
-                    <dd class="accordion__content active">
-                        <div class="form form_account">
-                            <div class="form__row line">
-                                <div class="user-photo">
-                                    <img src="img/avatar06.jpg" alt="" />
-                                </div>
-                                <div class="choose-photo">
-                                    <div class="upload-i line">
-                                        <input type="file" title="Файл не выбран"/>
+                <div class="form form_create_resume">
+                    <h2 class="cnt__sub-ttl">Создание резюме</h2>
+                    <dl class="accordion">
+                        <dt class="accordion__caption"><span class="accordion__caption-in"><span class="ico ico_accordion-a"></span>Личные данные</span></dt>
+                        <dd class="accordion__content active">
+                            <div class="form form_account">
+                                <div class="form__row line">
+                                    <div class="user-photo">
+                                        <img src="img/avatar06.jpg" alt="" />
+                                    </div>
+                                    <div class="choose-photo">
+                                        <div class="upload-i line">
+                                            <input type="file" title="Файл не выбран"/>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="form__row form__row_small">
-                                <label class="b-label" for="name">Имя<span class="required">*</span></label>
-                                <div class="input-i input-i_middle">
-                                    <input id="name" class="input input_small" type="text">
+                                <div class="form__row form__row_small">
+                                    <label class="b-label" for="name">Имя<span class="required">*</span></label>
+                                    <div class="input-i input-i_middle">
+                                        <input id="name" class="input input_small" type="text">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form__row form__row_small">
-                                <label class="b-label" for="surname">Фамилия<span class="required">*</span></label>
-                                <div class="input-i input-i_middle">
-                                    <input id="surname" class="input input_small" type="text">
+                                <div class="form__row form__row_small">
+                                    <label class="b-label" for="surname">Фамилия<span class="required">*</span></label>
+                                    <div class="input-i input-i_middle">
+                                        <input id="surname" class="input input_small" type="text">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form__row">
-                                <label class="b-label">Город, регион<span class="required">*</span></label>
-                                <a class="ico ico_info tooltip-link" href="#">
-                                    <span class="tooltip">
-                                        <span class="tooltip__inner">
-                                            <span class="tooltip__text">Введите название города.</span>
-                                            <span class="tooltip__text">Вы можете выбрать до 3 городов.</span>
-                                            <span class="ico ico_tooltip-a"></span>
+                                <div class="form__row">
+                                    <label class="b-label">Город, регион<span class="required">*</span></label>
+                                    <a class="ico ico_info tooltip-link" href="#">
+                                        <span class="tooltip">
+                                            <span class="tooltip__inner">
+                                                <span class="tooltip__text">Введите название города.</span>
+                                                <span class="tooltip__text">Вы можете выбрать до 3 городов.</span>
+                                                <span class="ico ico_tooltip-a"></span>
+                                            </span>
                                         </span>
-                                    </span>
-                                </a>
-                                <div class="b-select">
+                                    </a>
                                     <div class="b-select">
-                                        <select data-placeholder=" " class="chosen-select" multiple style="width:374px;" tabindex="1">
-                                            <option value=""></option>
-                                            <option value="Maine">Тува</option>
-                                            <option value="United Kingdom">Чечня</option>
-                                            <option value="Afghanistan">Магадан</option>
-                                        </select>
+                                        <div class="b-select">
+                                            <select data-placeholder=" " class="chosen-select" multiple style="width:374px;" tabindex="1">
+                                                <option value=""></option>
+                                                <option value="Maine">Тува</option>
+                                                <option value="United Kingdom">Чечня</option>
+                                                <option value="Afghanistan">Магадан</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form__row">
+                                    <label class="b-label" for="email">E-mail</label>
+                                    <div class="input-i input-i_bigger">
+                                        <input id="email" class="input" type="text">
+                                    </div>
+                                </div>
+                                <div class="form__row">
+                                    <label class="b-label" for="phone">Телефон</label>
+                                    <div class="input-i input-i_bigger">
+                                        <input id="phone" class="input" type="text">
                                     </div>
                                 </div>
                             </div>
-                            <div class="form__row">
-                                <label class="b-label" for="email">E-mail</label>
-                                <div class="input-i input-i_bigger">
-                                    <input id="email" class="input" type="text">
+                        </dd>
+                        <dt class="accordion__caption"><span class="accordion__caption-in"><span class="ico ico_accordion-a"></span>Параметры</span></dt>
+                        <dd class="accordion__content">
+                            <div class="form form_account">
+                                <div class="form__row">
+                                    <label class="b-label" for="position">Желаемая должность<span class="required">*</span></label>
+                                    <div class="input-i input-i_bigger">
+                                        <input id="position" class="input" type="text">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form__row">
-                                <label class="b-label" for="phone">Телефон</label>
-                                <div class="input-i input-i_bigger">
-                                    <input id="phone" class="input" type="text">
-                                </div>
-                            </div>
-                        </div>
-                    </dd>
-                    <dt class="accordion__caption"><span class="accordion__caption-in"><span class="ico ico_accordion-a"></span>Параметры</span></dt>
-                    <dd class="accordion__content">
-                        <div class="form form_account">
-                            <div class="form__row">
-                                <label class="b-label" for="position">Желаемая должность<span class="required">*</span></label>
-                                <div class="input-i input-i_bigger">
-                                    <input id="position" class="input" type="text">
-                                </div>
-                            </div>
-                            <div class="form__row">
-                                <label class="b-label">Проф.область<span class="required">*</span></label>
-                                <a class="ico ico_info tooltip-link" href="#">
-                                    <span class="tooltip">
-                                        <span class="tooltip__inner">
-                                            <span class="tooltip__text">Введите название города.</span>
-                                            <span class="tooltip__text">Вы можете выбрать до 3 городов.</span>
-                                            <span class="ico ico_tooltip-a"></span>
+                                <div class="form__row">
+                                    <label class="b-label">Проф.область<span class="required">*</span></label>
+                                    <a class="ico ico_info tooltip-link" href="#">
+                                        <span class="tooltip">
+                                            <span class="tooltip__inner">
+                                                <span class="tooltip__text">Введите название города.</span>
+                                                <span class="tooltip__text">Вы можете выбрать до 3 городов.</span>
+                                                <span class="ico ico_tooltip-a"></span>
+                                            </span>
                                         </span>
-                                    </span>
-                                </a>
-                                <ul class="profession">
-                                    <li class="line"><input id="tv" type="checkbox" disabled /><label for="tv">ТВ</label></li>
-                                    <li class="line"><input id="movie" type="checkbox" /><label for="movie">Кино</label></li>
-                                    <li class="line"><input id="radio" type="checkbox" /><label for="radio">Радио</label></li>
-                                    <li class="line"><input id="pr" type="checkbox" /><label for="pr">Маркетинг / PR</label></li>
-                                    <li class="line"><input id="sales" type="checkbox" /><label for="sales">Продажи</label></li>
-                                    <li class="line"><input id="finance" type="checkbox" /><label for="finance">Финансы / Юристы</label></li>
-                                    <li class="line"><input id="admin" type="checkbox" /><label for="admin">Администрация</label></li>
+                                    </a>
+                                    <ul class="profession">
+                                        <li class="line"><input id="tv" type="checkbox" disabled /><label for="tv">ТВ</label></li>
+                                        <li class="line"><input id="movie" type="checkbox" /><label for="movie">Кино</label></li>
+                                        <li class="line"><input id="radio" type="checkbox" /><label for="radio">Радио</label></li>
+                                        <li class="line"><input id="pr" type="checkbox" /><label for="pr">Маркетинг / PR</label></li>
+                                        <li class="line"><input id="sales" type="checkbox" /><label for="sales">Продажи</label></li>
+                                        <li class="line"><input id="finance" type="checkbox" /><label for="finance">Финансы / Юристы</label></li>
+                                        <li class="line"><input id="admin" type="checkbox" /><label for="admin">Администрация</label></li>
+                                    </ul>
+                                </div>
+                                <div class="form__row">
+                                    <div class="select-i">
+                                        <select class="select select_custom" disabled  data-placeholder="Специальность *">
+                                            <option></option>
+                                            <option>ТВ</option>
+                                            <option>Кино</option>
+                                            <option>Радио</option>
+                                            <option>Маркетинг / PR</option>
+                                            <option>Продажи</option>
+                                            <option>Финансы / Юристы</option>
+                                            <option>Администрация</option>
+                                        </select>
+                                    </div>
+                                    <div class="select-i">
+                                        <select class="select select_custom" data-placeholder="Занятость *">
+                                            <option></option>
+                                            <option>Ассистент художника-постановщика</option>
+                                            <option>Администратор по площадке</option>
+                                            <option>Менеджер по работе с правообладателями</option>
+                                            <option>Менеджер технической группы</option>
+                                            <option>Оператор комбинированых съемок</option>
+                                            <option>Режиссер анимационного фильма</option>
+                                            <option>Техник цифровой киносъемки</option>
+                                            <option>Художник по специальному гримму</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form__row">
+                                    <label class="b-label">Ожидаемая зарплата, руб.</label>
+                                    <div class="form__wrap">
+                                        <div class="filter">
+                                            <div id="filter-slider"></div>
+                                            <span class="filter__value filter__value-left">2500 <span class="b-rbl">a</span></span>
+                                            <span class="filter__value filter__value-right">100000 <span class="b-rbl">a</span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </dd>
+                        <dt class="accordion__caption"><span class="accordion__caption-in"><span class="ico ico_accordion-a"></span>Опыт работы</span></dt>
+                        <dd class="accordion__content">
+                            <div class="form form_account">
+                                <div class="form__top">
+                                    <a class="b-link" href="#"><span class="b-link__inner">Добавить</span><span class="ico ico_add-big"></span></a>
+                                </div>
+                                <div class="form__box">
+                                    <div class="form__row">
+                                        <span class="period-name">Период работы:</span>
+                                        <div class="select-i select-i_small">
+                                            <select class="select select_custom" disabled data-placeholder="с">
+                                                <option></option>
+                                                <option>2000</option>
+                                                <option>2001</option>
+                                                <option>2002</option>
+                                                <option>2003</option>
+                                                <option>2004</option>
+                                            </select>
+                                        </div>
+                                        <div class="select-i select-i_small">
+                                            <select class="select select_custom" data-placeholder="по">
+                                                <option></option>
+                                                <option>2000</option>
+                                                <option>2001</option>
+                                                <option>2002</option>
+                                                <option>2003</option>
+                                                <option>2004</option>
+                                            </select>
+                                        </div>
+                                        <div class="period-time">
+                                            <input id="period" type="checkbox" /><label class="b-label" for="period">По настоящее время</label>
+                                        </div>
+                                    </div>
+                                    <div class="form__row">
+                                        <label class="b-label" for="work">Место работы</label>
+                                        <div class="input-i input-i_bigger">
+                                            <input id="work" class="input" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form__row">
+                                        <label class="b-label" for="post">Должность</label>
+                                        <div class="input-i input-i_bigger">
+                                            <input id="post" class="input" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form__row form__row_last">
+                                        <label class="b-label" for="response">Обязанности и достижения</label>
+                                        <div class="input-i input-i_bigger">
+                                            <textarea id="response" class="ta ta_big"></textarea>
+                                        </div>
+                                    </div>
+                                    <a class="ico ico_close" href="#"></a>
+                                </div>
+                            </div>
+                        </dd>
+                        <dt class="accordion__caption"><span class="accordion__caption-in"><span class="ico ico_accordion-a"></span>Образование</span></dt>
+                        <dd class="accordion__content">
+                            <div class="form form_account">
+                                <div class="form__row">
+                                    <div class="select-i">
+                                        <select class="select select_custom" data-placeholder="Уровень">
+                                            <option></option>
+                                            <option>ТВ</option>
+                                            <option>Кино</option>
+                                            <option>Радио</option>
+                                            <option>Маркетинг / PR</option>
+                                            <option>Продажи</option>
+                                            <option>Финансы / Юристы</option>
+                                            <option>Администрация</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form__top">
+                                    <strong>Основное образование</strong>
+                                    <a class="b-link" href="#"><span class="b-link__inner">Добавить</span><span class="ico ico_add-big"></span></a>
+                                </div>
+                                <div class="form__box">
+                                    <div class="form__row">
+                                        <span class="period-name">Период учебы:</span>
+                                        <div class="select-i select-i_small">
+                                            <select class="select select_custom" data-placeholder="с">
+                                                <option></option>
+                                                <option>2000</option>
+                                                <option>2001</option>
+                                                <option>2002</option>
+                                                <option>2003</option>
+                                                <option>2004</option>
+                                            </select>
+                                        </div>
+                                        <div class="select-i select-i_small">
+                                            <select class="select select_custom" data-placeholder="по">
+                                                <option></option>
+                                                <option>2000</option>
+                                                <option>2001</option>
+                                                <option>2002</option>
+                                                <option>2003</option>
+                                                <option>2004</option>
+                                            </select>
+                                        </div>
+                                        <div class="period-time">
+                                            <input id="period1" type="checkbox" /><label class="b-label" for="period1">По настоящее время</label>
+                                        </div>
+                                    </div>
+                                    <div class="form__row">
+                                        <label class="b-label" for="institute">Учебное заведение</label>
+                                        <div class="input-i input-i_bigger">
+                                            <input id="institute" class="input" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form__row">
+                                        <label class="b-label" for="faculty">Факультет</label>
+                                        <div class="input-i input-i_bigger">
+                                            <input id="faculty" class="input" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form__row">
+                                        <label class="b-label" for="speciality">Специальность</label>
+                                        <div class="input-i input-i_bigger">
+                                            <input id="speciality" class="input"  type="text">
+                                        </div>
+                                    </div>
+                                    <a class="ico ico_close" href="#"></a>
+                                </div>
+                                <div class="form__top">
+                                    <strong>Дополнительное образование</strong>
+                                    <a class="b-link" href="#"><span class="b-link__inner">Добавить</span><span class="ico ico_add-big"></span></a>
+                                </div>
+                                <div class="form__box">
+                                    <div class="form__row">
+                                        <span class="period-name">Период учебы:</span>
+                                        <div class="select-i select-i_small">
+                                            <select class="select select_custom" data-placeholder="с">
+                                                <option></option>
+                                                <option>2000</option>
+                                                <option>2001</option>
+                                                <option>2002</option>
+                                                <option>2003</option>
+                                                <option>2004</option>
+                                            </select>
+                                        </div>
+                                        <div class="select-i select-i_small">
+                                            <select class="select select_custom" data-placeholder="по">
+                                                <option></option>
+                                                <option>2000</option>
+                                                <option>2001</option>
+                                                <option>2002</option>
+                                                <option>2003</option>
+                                                <option>2004</option>
+                                            </select>
+                                        </div>
+                                        <div class="period-time">
+                                            <input id="period2" type="checkbox" /><label class="b-label" for="period2">По настоящее время</label>
+                                        </div>
+                                    </div>
+                                    <div class="form__row">
+                                        <label class="b-label" for="institute2">Учебное заведение</label>
+                                        <div class="input-i input-i_bigger">
+                                            <input id="institute2" class="input" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form__row">
+                                        <label class="b-label" for="faculty2">Факультет</label>
+                                        <div class="input-i input-i_bigger">
+                                            <input id="faculty2" class="input" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form__row">
+                                        <label class="b-label" for="speciality2">Специальность</label>
+                                        <div class="input-i input-i_bigger">
+                                            <input id="speciality2" class="input" type="text">
+                                        </div>
+                                    </div>
+                                    <a class="ico ico_close" href="#"></a>
+                                </div>
+                                <div class="form__top">
+                                    <strong>Сертификаты, тесты, эказамены</strong>
+                                    <a class="b-link" href="#"><span class="b-link__inner">Добавить</span><span class="ico ico_add-big"></span></a>
+                                </div>
+                                <div class="form__box">
+                                    <div class="form__row">
+                                        <div class="select-i select-i_middle">
+                                            <select class="select select_custom" data-placeholder="Год сдачи">
+                                                <option></option>
+                                                <option>2000</option>
+                                                <option>2001</option>
+                                                <option>2002</option>
+                                                <option>2003</option>
+                                                <option>2004</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form__row">
+                                        <label class="b-label" for="title">Название</label>
+                                        <div class="input-i input-i_bigger">
+                                            <input id="title" class="input" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form__row">
+                                        <label class="b-label" for="org">Организация</label>
+                                        <div class="input-i input-i_bigger">
+                                            <input id="org" class="input" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form__row">
+                                        <label class="b-label" for="result">Результат</label>
+                                        <div class="input-i input-i_bigger">
+                                            <input id="result" class="input" type="text">
+                                        </div>
+                                    </div>
+                                    <a class="ico ico_close" href="#"></a>
+                                </div>
+                            </div>
+                        </dd>
+                        <dt class="accordion__caption"><span class="accordion__caption-in"><span class="ico ico_accordion-a"></span>Квалификация</span></dt>
+                        <dd class="accordion__content">
+                            <div class="form form_account">
+                                <div class="form__top">
+                                    <strong>Иностанные языки</strong>
+                                    <a class="b-link" href="#"><span class="b-link__inner">Добавить</span><span class="ico ico_add-big"></span></a>
+                                </div>
+                                <div class="form__box">
+                                    <div class="form__row form__row_last">
+                                        <div class="input-i input-i_bigger input-i_bigger-lang">
+                                            <input class="input" type="text">
+                                        </div>
+                                        <div class="select-i select-i_lang">
+                                            <select class="select select_custom" data-placeholder="Уровень владения">
+                                                <option></option>
+                                                <option>2000</option>
+                                                <option>2001</option>
+                                                <option>2002</option>
+                                                <option>2003</option>
+                                                <option>2004</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form__top">
+                                    <strong>Профессиональные навыки</strong>
+                                    <a class="ico ico_info tooltip-link" href="#">
+                                        <span class="tooltip tooltip_large">
+                                            <span class="tooltip__inner">
+                                                <span class="tooltip__text">Расскажите, что вы делаете лучше всего, какими программами владеете, каким профессиональным оборудованием умеете пользоваься.</span>
+                                                <span class="ico ico_tooltip-a-left"></span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="form__row">
+                                    <textarea class="ta ta_big"></textarea>
+                                </div>
+                                <div class="form__top">
+                                    <strong>Дополнительная информация</strong>
+                                    <a class="ico ico_info tooltip-link" href="#">
+                                        <span class="tooltip tooltip_middle">
+                                            <span class="tooltip__inner">
+                                                <span class="tooltip__text">Любая интересная информация о вас, которая может привлечь работодателя.</span>
+                                                <span class="ico ico_tooltip-a-left"></span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="form__row">
+                                    <textarea class="ta ta_big"></textarea>
+                                </div>
+                            </div>
+                        </dd>
+                        <dt class="accordion__caption"><span class="accordion__caption-in"><span class="ico ico_accordion-a"></span>Портфолио</span></dt>
+                        <dd class="accordion__content">
+                            <div class="form form_account">
+                                <ul class="portfolio">
+                                    <li>
+                                        <span class="portfolio__logo"><i class="ico ico_site"></i></span>
+                                        <strong class="portfolio__text">Сайт</strong>
+                                        <div class="input-i input-i_bigger">
+                                            <input class="input " type="text">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="portfolio__logo"><i class="ico ico_youtube"></i></span>
+                                        <strong class="portfolio__text">YouTube</strong>
+                                        <div class="input-i input-i_bigger">
+                                            <input class="input " type="text">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="portfolio__logo"><i class="ico ico_vimeo"></i></span>
+                                        <strong class="portfolio__text">Vimeo</strong>
+                                        <div class="input-i input-i_bigger">
+                                            <input class="input " type="text">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="portfolio__logo"><i class="ico ico_cloud"></i></span>
+                                        <strong class="portfolio__text">Soundcloud</strong>
+                                        <div class="input-i input-i_bigger">
+                                            <input class="input " type="text">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="portfolio__logo"><i class="ico ico_lj"></i></span>
+                                        <strong class="portfolio__text">Livejournal</strong>
+                                        <div class="input-i input-i_bigger">
+                                            <input class="input " type="text">
+                                        </div>
+                                    </li>
+
                                 </ul>
-                            </div>
-                            <div class="form__row">
-                                <div class="select-i">
-                                    <select class="select select_custom" disabled  data-placeholder="Специальность *">
-                                        <option></option>
-                                        <option>ТВ</option>
-                                        <option>Кино</option>
-                                        <option>Радио</option>
-                                        <option>Маркетинг / PR</option>
-                                        <option>Продажи</option>
-                                        <option>Финансы / Юристы</option>
-                                        <option>Администрация</option>
-                                    </select>
-                                </div>
-                                <div class="select-i">
-                                    <select class="select select_custom" data-placeholder="Занятость *">
-                                        <option></option>
-                                        <option>Ассистент художника-постановщика</option>
-                                        <option>Администратор по площадке</option>
-                                        <option>Менеджер по работе с правообладателями</option>
-                                        <option>Менеджер технической группы</option>
-                                        <option>Оператор комбинированых съемок</option>
-                                        <option>Режиссер анимационного фильма</option>
-                                        <option>Техник цифровой киносъемки</option>
-                                        <option>Художник по специальному гримму</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form__row">
-                                <label class="b-label">Ожидаемая зарплата, руб.</label>
-                                <div class="form__wrap">
-                                    <div class="filter">
-                                        <div id="filter-slider"></div>
-                                        <span class="filter__value filter__value-left">2500 <span class="b-rbl">a</span></span>
-                                        <span class="filter__value filter__value-right">100000 <span class="b-rbl">a</span></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </dd>
-                    <dt class="accordion__caption"><span class="accordion__caption-in"><span class="ico ico_accordion-a"></span>Опыт работы</span></dt>
-                    <dd class="accordion__content">
-                        <div class="form form_account">
-                            <div class="form__top">
-                                <a class="b-link" href="#"><span class="b-link__inner">Добавить</span><span class="ico ico_add-big"></span></a>
-                            </div>
-                            <div class="form__box">
-                                <div class="form__row">
-                                    <span class="period-name">Период работы:</span>
-                                    <div class="select-i select-i_small">
-                                        <select class="select select_custom" disabled data-placeholder="с">
-                                            <option></option>
-                                            <option>2000</option>
-                                            <option>2001</option>
-                                            <option>2002</option>
-                                            <option>2003</option>
-                                            <option>2004</option>
-                                        </select>
-                                    </div>
-                                    <div class="select-i select-i_small">
-                                        <select class="select select_custom" data-placeholder="по">
-                                            <option></option>
-                                            <option>2000</option>
-                                            <option>2001</option>
-                                            <option>2002</option>
-                                            <option>2003</option>
-                                            <option>2004</option>
-                                        </select>
-                                    </div>
-                                    <div class="period-time">
-                                        <input id="period" type="checkbox" /><label class="b-label" for="period">По настоящее время</label>
-                                    </div>
-                                </div>
-                                <div class="form__row">
-                                    <label class="b-label" for="work">Место работы</label>
-                                    <div class="input-i input-i_bigger">
-                                        <input id="work" class="input" type="text">
-                                    </div>
-                                </div>
-                                <div class="form__row">
-                                    <label class="b-label" for="post">Должность</label>
-                                    <div class="input-i input-i_bigger">
-                                        <input id="post" class="input" type="text">
-                                    </div>
-                                </div>
-                                <div class="form__row form__row_last">
-                                    <label class="b-label" for="response">Обязанности и достижения</label>
-                                    <div class="input-i input-i_bigger">
-                                        <textarea id="response" class="ta ta_big"></textarea>
-                                    </div>
-                                </div>
-                                <a class="ico ico_close" href="#"></a>
-                            </div>
-                        </div>
-                    </dd>
-                    <dt class="accordion__caption"><span class="accordion__caption-in"><span class="ico ico_accordion-a"></span>Образование</span></dt>
-                    <dd class="accordion__content">
-                        <div class="form form_account">
-                            <div class="form__row">
-                                <div class="select-i">
-                                    <select class="select select_custom" data-placeholder="Уровень">
-                                        <option></option>
-                                        <option>ТВ</option>
-                                        <option>Кино</option>
-                                        <option>Радио</option>
-                                        <option>Маркетинг / PR</option>
-                                        <option>Продажи</option>
-                                        <option>Финансы / Юристы</option>
-                                        <option>Администрация</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form__top">
-                                <strong>Основное образование</strong>
-                                <a class="b-link" href="#"><span class="b-link__inner">Добавить</span><span class="ico ico_add-big"></span></a>
-                            </div>
-                            <div class="form__box">
-                                <div class="form__row">
-                                    <span class="period-name">Период учебы:</span>
-                                    <div class="select-i select-i_small">
-                                        <select class="select select_custom" data-placeholder="с">
-                                            <option></option>
-                                            <option>2000</option>
-                                            <option>2001</option>
-                                            <option>2002</option>
-                                            <option>2003</option>
-                                            <option>2004</option>
-                                        </select>
-                                    </div>
-                                    <div class="select-i select-i_small">
-                                        <select class="select select_custom" data-placeholder="по">
-                                            <option></option>
-                                            <option>2000</option>
-                                            <option>2001</option>
-                                            <option>2002</option>
-                                            <option>2003</option>
-                                            <option>2004</option>
-                                        </select>
-                                    </div>
-                                    <div class="period-time">
-                                        <input id="period1" type="checkbox" /><label class="b-label" for="period1">По настоящее время</label>
-                                    </div>
-                                </div>
-                                <div class="form__row">
-                                    <label class="b-label" for="institute">Учебное заведение</label>
-                                    <div class="input-i input-i_bigger">
-                                        <input id="institute" class="input" type="text">
-                                    </div>
-                                </div>
-                                <div class="form__row">
-                                    <label class="b-label" for="faculty">Факультет</label>
-                                    <div class="input-i input-i_bigger">
-                                        <input id="faculty" class="input" type="text">
-                                    </div>
-                                </div>
-                                <div class="form__row">
-                                    <label class="b-label" for="speciality">Специальность</label>
-                                    <div class="input-i input-i_bigger">
-                                        <input id="speciality" class="input"  type="text">
-                                    </div>
-                                </div>
-                                <a class="ico ico_close" href="#"></a>
-                            </div>
-                            <div class="form__top">
-                                <strong>Дополнительное образование</strong>
-                                <a class="b-link" href="#"><span class="b-link__inner">Добавить</span><span class="ico ico_add-big"></span></a>
-                            </div>
-                            <div class="form__box">
-                                <div class="form__row">
-                                    <span class="period-name">Период учебы:</span>
-                                    <div class="select-i select-i_small">
-                                        <select class="select select_custom" data-placeholder="с">
-                                            <option></option>
-                                            <option>2000</option>
-                                            <option>2001</option>
-                                            <option>2002</option>
-                                            <option>2003</option>
-                                            <option>2004</option>
-                                        </select>
-                                    </div>
-                                    <div class="select-i select-i_small">
-                                        <select class="select select_custom" data-placeholder="по">
-                                            <option></option>
-                                            <option>2000</option>
-                                            <option>2001</option>
-                                            <option>2002</option>
-                                            <option>2003</option>
-                                            <option>2004</option>
-                                        </select>
-                                    </div>
-                                    <div class="period-time">
-                                        <input id="period2" type="checkbox" /><label class="b-label" for="period2">По настоящее время</label>
-                                    </div>
-                                </div>
-                                <div class="form__row">
-                                    <label class="b-label" for="institute2">Учебное заведение</label>
-                                    <div class="input-i input-i_bigger">
-                                        <input id="institute2" class="input" type="text">
-                                    </div>
-                                </div>
-                                <div class="form__row">
-                                    <label class="b-label" for="faculty2">Факультет</label>
-                                    <div class="input-i input-i_bigger">
-                                        <input id="faculty2" class="input" type="text">
-                                    </div>
-                                </div>
-                                <div class="form__row">
-                                    <label class="b-label" for="speciality2">Специальность</label>
-                                    <div class="input-i input-i_bigger">
-                                        <input id="speciality2" class="input" type="text">
-                                    </div>
-                                </div>
-                                <a class="ico ico_close" href="#"></a>
-                            </div>
-                            <div class="form__top">
-                                <strong>Сертификаты, тесты, эказамены</strong>
-                                <a class="b-link" href="#"><span class="b-link__inner">Добавить</span><span class="ico ico_add-big"></span></a>
-                            </div>
-                            <div class="form__box">
-                                <div class="form__row">
-                                    <div class="select-i select-i_middle">
-                                        <select class="select select_custom" data-placeholder="Год сдачи">
-                                            <option></option>
-                                            <option>2000</option>
-                                            <option>2001</option>
-                                            <option>2002</option>
-                                            <option>2003</option>
-                                            <option>2004</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="form__row">
-                                    <label class="b-label" for="title">Название</label>
-                                    <div class="input-i input-i_bigger">
-                                        <input id="title" class="input" type="text">
-                                    </div>
-                                </div>
-                                <div class="form__row">
-                                    <label class="b-label" for="org">Организация</label>
-                                    <div class="input-i input-i_bigger">
-                                        <input id="org" class="input" type="text">
-                                    </div>
-                                </div>
-                                <div class="form__row">
-                                    <label class="b-label" for="result">Результат</label>
-                                    <div class="input-i input-i_bigger">
-                                        <input id="result" class="input" type="text">
-                                    </div>
-                                </div>
-                                <a class="ico ico_close" href="#"></a>
-                            </div>
-                        </div>
-                    </dd>
-                    <dt class="accordion__caption"><span class="accordion__caption-in"><span class="ico ico_accordion-a"></span>Квалификация</span></dt>
-                    <dd class="accordion__content">
-                        <div class="form form_account">
-                            <div class="form__top">
-                                <strong>Иностанные языки</strong>
-                                <a class="b-link" href="#"><span class="b-link__inner">Добавить</span><span class="ico ico_add-big"></span></a>
-                            </div>
-                            <div class="form__box">
-                                <div class="form__row form__row_last">
-                                    <div class="input-i input-i_bigger input-i_bigger-lang">
-                                        <input class="input" type="text">
-                                    </div>
-                                    <div class="select-i select-i_lang">
-                                        <select class="select select_custom" data-placeholder="Уровень владения">
-                                            <option></option>
-                                            <option>2000</option>
-                                            <option>2001</option>
-                                            <option>2002</option>
-                                            <option>2003</option>
-                                            <option>2004</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form__top">
-                                <strong>Профессиональные навыки</strong>
-                                <a class="ico ico_info tooltip-link" href="#">
-                                    <span class="tooltip tooltip_large">
-                                        <span class="tooltip__inner">
-                                            <span class="tooltip__text">Расскажите, что вы делаете лучше всего, какими программами владеете, каким профессиональным оборудованием умеете пользоваься.</span>
-                                            <span class="ico ico_tooltip-a-left"></span>
-                                        </span>
-                                    </span>
-                                </a>
-                            </div>
-                            <div class="form__row">
-                                <textarea class="ta ta_big"></textarea>
-                            </div>
-                            <div class="form__top">
-                                <strong>Дополнительная информация</strong>
-                                <a class="ico ico_info tooltip-link" href="#">
-                                    <span class="tooltip tooltip_middle">
-                                        <span class="tooltip__inner">
-                                            <span class="tooltip__text">Любая интересная информация о вас, которая может привлечь работодателя.</span>
-                                            <span class="ico ico_tooltip-a-left"></span>
-                                        </span>
-                                    </span>
-                                </a>
-                            </div>
-                            <div class="form__row">
-                                <textarea class="ta ta_big"></textarea>
-                            </div>
-                        </div>
-                    </dd>
-                    <dt class="accordion__caption"><span class="accordion__caption-in"><span class="ico ico_accordion-a"></span>Портфолио</span></dt>
-                    <dd class="accordion__content">
-                        <div class="form form_account">
-                            <ul class="portfolio">
-                                <li>
-                                    <span class="portfolio__logo"><i class="ico ico_site"></i></span>
-                                    <strong class="portfolio__text">Сайт</strong>
-                                    <div class="input-i input-i_bigger">
-                                        <input class="input " type="text">
-                                    </div>
-                                </li>
-                                <li>
-                                    <span class="portfolio__logo"><i class="ico ico_youtube"></i></span>
-                                    <strong class="portfolio__text">YouTube</strong>
-                                    <div class="input-i input-i_bigger">
-                                        <input class="input " type="text">
-                                    </div>
-                                </li>
-                                <li>
-                                    <span class="portfolio__logo"><i class="ico ico_vimeo"></i></span>
-                                    <strong class="portfolio__text">Vimeo</strong>
-                                    <div class="input-i input-i_bigger">
-                                        <input class="input " type="text">
-                                    </div>
-                                </li>
-                                <li>
-                                    <span class="portfolio__logo"><i class="ico ico_cloud"></i></span>
-                                    <strong class="portfolio__text">Soundcloud</strong>
-                                    <div class="input-i input-i_bigger">
-                                        <input class="input " type="text">
-                                    </div>
-                                </li>
-                                <li>
-                                    <span class="portfolio__logo"><i class="ico ico_lj"></i></span>
-                                    <strong class="portfolio__text">Livejournal</strong>
-                                    <div class="input-i input-i_bigger">
-                                        <input class="input " type="text">
-                                    </div>
-                                </li>
 
-                            </ul>
-
-                        </div>
-                    </dd>
-                </dl>
-                <div class="resume-bottom">
-                    <a class="btn btn_green" href="#"><span class="btn__inner">Сохранить</span></a>
-                    <a class="btn btn_green" href="#"><span class="btn__inner">Опубликовать</span></a>
+                            </div>
+                        </dd>
+                    </dl>
+                    <div class="resume-bottom">
+                        <a class="btn btn_green" href="#"><span class="btn__inner">Сохранить</span></a>
+                        <a class="btn btn_green" href="#"><span class="btn__inner">Опубликовать</span></a>
+                    </div>
                 </div>
 			</div>
 			<div class="sdbr">

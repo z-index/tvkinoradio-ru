@@ -3121,6 +3121,12 @@ a:hover {
 .form_create_group .form__bottom_save .btn {
   width: 160px;
 }
+.form_create_event {
+  margin-top: -7px;
+}
+.form_create_resume {
+  margin-top: -7px;
+}
 .form_job-search {
   min-height: 80px;
 }
@@ -4309,6 +4315,7 @@ a:hover {
   overflow: hidden;
   margin-bottom: 4px;
   background: #fff;
+  text-decoration: none;
 }
 .news__img:hover {
   background: #f3f5f6;
@@ -4535,6 +4542,9 @@ a:hover {
 }
 .post__section .visual__list-item {
   margin: 0 16px 23px 0;
+}
+.post__section .visual__list_video .visual__list-item {
+  margin: 0 16px 11px 0;
 }
 .post__section_second {
   padding-bottom: 40px;
@@ -4780,7 +4790,8 @@ a:hover {
 .company-box__section h1 {
   font-size: 38px;
   line-height: 42px;
-  margin: 0 0 22px;
+  /*	margin:0 0 22px;*/
+
   /*  margin:0 0 16px;*/
 
   position: relative;
@@ -5054,6 +5065,7 @@ a:hover {
   text-align: center;
   text-decoration: none;
   position: relative;
+  outline: none;
 }
 .menu__link strong {
   display: block;
@@ -5704,7 +5716,7 @@ a:hover {
   height: 86px;
   overflow: hidden;
   position: relative;
-  margin-bottom: 6px;
+  margin-bottom: 15px;
   -webkit-border-radius: 5px;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 5px;
@@ -6603,7 +6615,21 @@ a:hover {
   z-index: 1;
 }
 .tabs_small {
-  padding: 14px 0 29px;
+  padding: 7px 0 37px;
+}
+.tabs_small .category {
+  overflow: hidden;
+  padding: 16px 0 3px;
+}
+.tabs_small .category:first-child {
+  padding: 0 0 3px;
+}
+.tabs_small .category h3 {
+  margin: 0;
+}
+.tabs_small .category__block {
+  margin: 0;
+  padding: 19px 0 0;
 }
 .tabs_small-user {
   padding-top: 0;
@@ -6913,7 +6939,8 @@ a:hover {
 }
 /* ==== [ vacancy ] ==== */
 .vacancy {
-  padding: 8px 0 4px;
+  margin-top: -7px;
+  padding: 0px 0 4px;
 }
 .vacancy__head {
   padding: 0 0 19px;
@@ -7159,7 +7186,6 @@ a:hover {
 }
 .catalog__ttl {
   display: block;
-  margin-bottom: 3px;
 }
 .catalog__ttl a {
   text-decoration: none;
@@ -7177,8 +7203,8 @@ a:hover {
   margin: -5px 0 2px;
 }
 .catalog__tab {
-  margin-bottom: 23px;
-  margin-top: -4px;
+  margin-bottom: 22px;
+  margin-top: -6px;
 }
 .catalog__tab li {
   display: inline-block;
@@ -7195,7 +7221,7 @@ a:hover {
   font-weight: normal;
   background: #1abc9c;
   border-radius: 0 4px 4px 0;
-  padding: 10px 20px;
+  padding: 9px 21px;
   color: #fff;
 }
 .catalog__tab-link:hover {
@@ -7405,7 +7431,7 @@ a:hover {
   height: 13px;
 }
 .alphabet {
-  margin-bottom: 22px;
+  margin-bottom: 34px;
 }
 .alphabet__link {
   font-size: 18px;
@@ -7433,6 +7459,10 @@ a:hover {
 }
 .alphabet .catalog__tab {
   display: inline-block;
+  margin: 3px 2px 0 0;
+}
+.alphabet .catalog__tab-link {
+  padding: 9px 14px;
 }
 .letters {
   padding-bottom: 25px;
@@ -7441,15 +7471,17 @@ a:hover {
 .letters__ttl {
   font-weight: bold;
   font-size: 16px;
-  margin-bottom: 3px;
 }
 .letters__block {
-  margin-bottom: 9px;
+  margin-bottom: 14px;
 }
 .letters__item {
   display: inline-block;
   vertical-align: top;
-  width: 203px;
+  width: 199px;
+}
+.letters__list {
+  line-height: 19px;
 }
 .letters__list a {
   text-decoration: none;
@@ -7479,7 +7511,7 @@ a:hover {
 .items__link {
   display: inline-block;
   vertical-align: top;
-  margin: 0 17px 17px 0;
+  margin: 0 19px 20px 0;
   height: 83px;
   width: 83px;
   overflow: hidden;
@@ -7614,11 +7646,13 @@ a:hover {
 }
 .look__gallery {
   float: left;
+  margin: -3px 0 0;
 }
 .look__info {
   text-align: left;
   width: 185px;
   float: right;
+  margin: -4px -3px 0;
 }
 .look__info_big {
   width: 259px;
@@ -7631,11 +7665,14 @@ a:hover {
   margin-bottom: 15px;
 }
 .look__mark dt {
-  margin-bottom: 4px;
+  margin-bottom: 0;
 }
 .look__mark dd {
   font-size: 14px;
   color: #7f8c8d;
+}
+.look__mark .ico {
+  margin: 0 0 0 3px;
 }
 .look__price {
   text-align: right;
@@ -7651,7 +7688,7 @@ a:hover {
   color: #34495e;
 }
 .look__price .ico_ruble {
-  margin: 6px 0 0;
+  margin: 4px 0 0;
 }
 .look__company {
   min-height: 186px;
@@ -7876,7 +7913,7 @@ a:hover {
   text-decoration: none;
   display: inline-block;
   position: relative;
-  margin: 20px 20px 20px 57px;
+  margin: 20px 20px 2px 57px;
   color: #34495e;
 }
 .features__link .ico_pdf {
@@ -8501,7 +8538,7 @@ a:hover {
 .slideshow-main {
   width: 355px;
   float: left;
-  margin-right: 3px;
+  margin-right: 6px;
 }
 .slideshow-main ul {
   margin: 0;
@@ -8553,7 +8590,7 @@ a:hover {
   float: left;
   width: 63px;
   position: relative;
-  margin-top: 56px;
+  margin-top: 55px;
 }
 .slideshow-carousel ul {
   margin: 0;
@@ -8625,7 +8662,7 @@ a:hover {
 }
 .jcarousel-skin-tango .jcarousel-clip-vertical {
   width: 62px;
-  height: 130px;
+  height: 136px;
 }
 .jcarousel-clip.jcarousel-clip-horizontal {
   width: 160px;
@@ -8638,7 +8675,7 @@ a:hover {
   zoom: 1;
 }
 .jcarousel-skin-tango .jcarousel-item-vertical {
-  margin-bottom: 15px;
+  margin-bottom: 24px;
   position: relative;
 }
 .jcarousel-skin-tango .jcarousel-item-placeholder {
@@ -10301,6 +10338,10 @@ a:hover {
   border: 0 !important;
 }
 .user-inf__company {
+  width: 308px;
+  display: inline-block;
+  vertical-align: top;
+  min-height: 67px;
   margin-bottom: 8px;
 }
 .user-inf__company h3 {
@@ -11293,6 +11334,9 @@ table.treetable th {
   color: #7F8C8D;
   font-size: 14px;
   display: inline-block;
+}
+.cv .post__head {
+  margin-top: -8px;
 }
 /* ############################################################################
 	[Jquery/javascript plugins]

@@ -689,6 +689,7 @@ padding:0 0 20px;
         overflow: hidden;
         margin-bottom: 4px;
 	    background:#fff;
+	    text-decoration:none;
 
 	    &:hover {
 		    background:#f3f5f6;
@@ -904,6 +905,9 @@ padding:0 0 20px;
         .visual__list-item {
             margin: 0 16px 23px 0;
         }
+		.visual__list_video .visual__list-item {
+			margin: 0 16px 11px 0;
+		}
 
         &_second {
             padding-bottom: 40px;
@@ -1162,7 +1166,7 @@ padding:0 0 20px;
 		h1 {
 			font-size:38px;
 			line-height:42px;
-			margin:0 0 22px;
+		/*	margin:0 0 22px;*/
           /*  margin:0 0 16px;*/
 			position:relative;
 			padding-right:30px;
@@ -1467,6 +1471,7 @@ padding:0 0 20px;
 		text-align:center;
 		text-decoration:none;
 		position:relative;
+		outline:none;
 
 		strong {
 			display:block;
@@ -2144,7 +2149,7 @@ padding:0 0 20px;
 		height:86px;
 		overflow:hidden;
 		position:relative;
-		margin-bottom: 6px;
+		margin-bottom: 15px;
 		.border-radius(5px);
 		border:1px solid #d8dee1;
 		background:#fff;
@@ -3081,7 +3086,24 @@ padding:0 0 20px;
 }
 
 .tabs_small {
-    padding:14px 0 29px;
+    padding:7px 0 37px;
+
+	.category {
+		overflow:hidden;
+		padding:16px 0 3px;
+
+		&:first-child {
+			padding:0 0 3px;
+		}
+
+		h3 {
+			margin:0;
+		}
+	}
+	.category__block {
+		margin:0;
+		padding:19px 0 0;
+	}
 }
 
 .tabs_small-user {
@@ -3380,7 +3402,8 @@ padding:0 0 20px;
 
 /* ==== [ vacancy ] ==== */
 .vacancy {
-	padding:8px 0 4px;
+    margin-top: -7px;
+	padding:0px 0 4px;
 
 	&__head {
 		padding: 0 0 19px;
@@ -3621,7 +3644,6 @@ padding:0 0 20px;
 	}
     &__ttl {
 	    display:block;
-        margin-bottom: 3px;
 
 	    a {
 		    text-decoration:none;
@@ -3641,8 +3663,8 @@ padding:0 0 20px;
     }
 }
 .catalog__tab {
-    margin-bottom: 23px;
-    margin-top: -4px;
+	margin-bottom: 22px;
+	margin-top: -6px;
 
     li {
         display: inline-block;
@@ -3661,7 +3683,7 @@ padding:0 0 20px;
         font-weight: normal;
         background: #1abc9c;
         border-radius: 0 4px 4px 0;
-        padding: 10px 20px;
+        padding: 9px 21px;
         color: #fff;
 
         &:hover {
@@ -3879,7 +3901,7 @@ padding:0 0 20px;
 	}
 }
 .alphabet {
-    margin-bottom: 22px;
+    margin-bottom: 34px;
 
     &__link {
         font-size: 18px;
@@ -3908,7 +3930,11 @@ padding:0 0 20px;
     }
     .catalog__tab {
         display: inline-block;
+	    margin: 3px 2px 0 0;
     }
+	.catalog__tab-link {
+		padding:9px 14px;
+	}
 }
 .letters {
     padding-bottom: 25px;
@@ -3917,17 +3943,17 @@ padding:0 0 20px;
     &__ttl {
         font-weight: bold;
         font-size: 16px;
-        margin-bottom: 3px;
     }
     &__block {
-        margin-bottom: 9px;
+        margin-bottom: 14px;
     }
     &__item {
         display: inline-block;
         vertical-align: top;
-        width: 203px;
+        width: 199px;
     }
     &__list {
+	    line-height:19px;
         a {
             text-decoration: none;
             color: #34495e;
@@ -3962,7 +3988,7 @@ padding:0 0 20px;
     &__link {
         display: inline-block;
         vertical-align: top;
-        margin: 0 17px 17px 0;
+        margin: 0 19px 20px 0;
         height: 83px;
         width: 83px;
         overflow: hidden;
@@ -4084,11 +4110,13 @@ padding:0 0 20px;
     }
     &__gallery {
         float: left;
+	    margin:-3px 0 0;
     }
     &__info {
         text-align: left;
         width: 185px;
         float: right;
+	    margin:-4px -3px 0;
     }
     &__info_big {
         width: 259px;
@@ -4101,12 +4129,15 @@ padding:0 0 20px;
         margin-bottom: 15px;
 
         dt {
-            margin-bottom: 4px;
+            margin-bottom: 0;
         }
         dd {
             font-size: 14px;
             color: #7f8c8d;
         }
+	    .ico {
+		    margin:0 0 0 3px;
+	    }
     }
     &__price {
         text-align: right;
@@ -4122,7 +4153,7 @@ padding:0 0 20px;
             color: #34495e;
         }
         .ico_ruble {
-            margin: 6px 0 0;
+            margin: 4px 0 0;
         }
     }
     &__company {
@@ -4338,7 +4369,7 @@ padding:0 0 20px;
     text-decoration: none;
     display: inline-block;
     position: relative;
-    margin: 20px 20px 20px 57px;
+    margin: 20px 20px 2px 57px;
     color: #34495e;
 
     .ico_pdf {
@@ -4955,7 +4986,7 @@ padding:0 0 20px;
 .slideshow-main {
     width:355px;
     float:left;
-    margin-right:3px;
+    margin-right:6px;
 }
 
 .slideshow-main ul {
@@ -5014,7 +5045,7 @@ padding:0 0 20px;
     float:left;
     width:63px;
     position:relative;
-    margin-top: 56px;
+    margin-top: 55px;
 }
 
 .slideshow-carousel ul {
@@ -5084,7 +5115,7 @@ padding:0 0 20px;
 
 .jcarousel-skin-tango .jcarousel-clip-vertical {
     width:  62px;
-    height: 130px;
+    height: 136px;
 }
 
 .jcarousel-clip.jcarousel-clip-horizontal {
@@ -5098,7 +5129,7 @@ padding:0 0 20px;
 	zoom: 1;
 }
 .jcarousel-skin-tango .jcarousel-item-vertical {
-    margin-bottom: 15px;
+    margin-bottom: 24px;
 	position: relative;
 }
 
@@ -6727,7 +6758,12 @@ padding:0 0 20px;
 	    }
     }
     &__company {
+	    width:308px;
+	    display:inline-block;
+	    vertical-align:top;
+	    min-height:67px;
         margin-bottom: 8px;
+
         h3 {
             font-size: 16px;
             font-weight: bold;
@@ -7715,4 +7751,8 @@ table.treetable td, table.treetable th {
 	color: #7F8C8D;
 	font-size: 14px;
 	display: inline-block;
+}
+
+.cv .post__head {
+    margin-top: -8px;
 }
